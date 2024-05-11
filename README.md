@@ -1,14 +1,14 @@
-# discordWebhook.js ✨
+# discwebhook ✨
 
->**What is discordWebhook.js?**
+>**What is discwebhook?**
  - **It's an npm package that wraps the Discord Webhook API.**
-> **Why use discordWebhook.js**
+> **Why use discwebhook?**
  - **Because it's simple and easy to deal with.**
 > **Will it keep getting up to date?**
  - **Yes since this is the first version ever of it, also it definitely will be updated if there's some changes on the Discord API, I have so many ideas to enhance this project, but let's leave this to another time.**
 ## Example
 
-    import { Webhook } from 'discordWebhook.js';
+    import { Webhook } from 'discwebhook';
     const webhook = new Webhook(TOKEN);
     (async function(){
 	    webhook.webhook.changeName("New Name")
