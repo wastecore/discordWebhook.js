@@ -1,0 +1,25 @@
+{
+  "name": "discordwebhook.js",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "discord-webhook",
+    "webhook",
+    "wrapper"
+  ],
+  "author": "wastecore",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.12.11",
+    "axios": "^1.6.8"
+  }
+}
