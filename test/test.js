@@ -1,4 +1,4 @@
-import { Webhook } from "../dist/index.js";
+import { Webhook } from "discwebhook";
 
 const webhook = new Webhook(TOKEN)(
   // This is an asynchronous function that invokes itself, It's used to set defaults (change name, avatar)
